@@ -18,7 +18,7 @@ public class PostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body(/* --> ваша проверка здесь <-- */)
+                .body("data", equalTo("We're all mad here. "))
         ;
     }
 
